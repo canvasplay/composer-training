@@ -1,0 +1,19 @@
+sudo: false
+language: php
+php:
+    - 7.4
+before_install:
+    - php -v
+install:
+    - composer install
+before_script:
+    - php -v
+    - composer update
+script:
+    -echo "Script here"
+after_success:
+    - echo "Yesss! Finished!"
+after_faliure:
+    - echo "Noooo!... Something went wrong!"
+afert_script:
+    - echo "Everything was OK!"
