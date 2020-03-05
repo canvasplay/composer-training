@@ -1,1 +1,3 @@
 # composer-training
+
+Hello world
