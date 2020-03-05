@@ -10,7 +10,7 @@ before_script:
     - php -v
     - composer update
 script:
-    -echo "Script here"
+    - echo "Script here"
 after_success:
     - echo "Yesss! Finished!"
 after_faliure:
